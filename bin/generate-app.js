@@ -38,7 +38,7 @@ async function main() {
 
     console.log('✅ Done! Run your project:');
     console.log(`   cd ${projectName}`);
-    console.log('   npm start');
+    console.log('   npm run dev');
   } catch (error) {
     console.error(error);
   }
