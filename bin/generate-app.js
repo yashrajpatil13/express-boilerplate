@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const { execSync } = require('child_process');
-const path = require('path');
-const fs = require('fs');
+import { execSync } from 'child_process';
+import path from 'path';
+import fs from 'fs';
 
 if (process.argv.length < 3) {
   console.log('❌ You must provide a name for your app.');
